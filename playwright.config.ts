@@ -9,7 +9,10 @@ expect: {
 reporter: 'html',
 use: {
     actionTimeout: 0,
-    trace: 'on-first-retry'
+    trace: 'on-first-retry',
+    extraHTTPHeaders: {
+        'Content-Type': 'application/json',
+      },
 },
 };
 

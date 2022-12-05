@@ -4,7 +4,7 @@
   "description": "This is a demo for the Engineering Week at Altimetrik's",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tests": "npx playwright test"
   },
   "repository": {
     "type": "git",
