@@ -4,6 +4,10 @@ test.beforeEach(async ({ page }) => {
     await page.goto('https://www.linkedin.com/home');
 });
 
+test.afterEach(async ({ page }) => {
+    await page.close();
+});
+
 test.describe('Demo Test', () => {
     test('Verify Login Error Message', async ({ page }) => {
         const email = `cesar${Math.floor(100 + Math.random() * 9000)}@js.com`;
