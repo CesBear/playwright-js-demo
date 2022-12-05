@@ -1,0 +1,22 @@
+{
+  "name": "playwright-js-demo",
+  "version": "1.0.0",
+  "description": "This is a demo for the Engineering Week at Altimetrik's",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CesBear/playwright-js-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CesBear/playwright-js-demo/issues"
+  },
+  "homepage": "https://github.com/CesBear/playwright-js-demo#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.28.1"
+  }
+}
