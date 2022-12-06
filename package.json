@@ -4,13 +4,18 @@
   "description": "This is a demo for the Engineering Week at Altimetrik's",
   "main": "index.js",
   "scripts": {
-    "tests": "npx playwright test"
+    "test": "npx playwright test",
+    "test-debug": "npx playwright test --debug",
+    "test-chromium":"npx playwright test --project=chromium",
+    "test-firefox":"npx playwright test --project=firefox",
+    "test-webkit":"npx playwright test --project=webkit",
+    "test-mobile":"npx playwright test --project=mobile-safari"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CesBear/playwright-js-demo.git"
   },
-  "author": "",
+  "author": "Cesar Ramirez",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/CesBear/playwright-js-demo/issues"
